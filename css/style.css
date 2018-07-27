@@ -1,0 +1,336 @@
+h1 a {
+	font-size: 30px;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	color: #fdf731;
+	margin-left: 30px;
+	text-decoration: none;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	border-bottom: 5px solid #fdf731;
+	height: 80px;
+}
+hr {
+	visibility: hidden;
+}
+li {
+	display: inline;
+	margin-top: 200px;
+	margin-right: 0;
+	padding-right: 2%;
+}
+/*nav {
+	width: 60%;
+}*/
+.navlink1 {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	color: white;
+	vertical-align: middle;
+	height: 100%;
+	/*padding: 2%;*/
+}
+.navlink1:hover {
+	background-color: #c6c6c6;
+
+
+}
+.navlink2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: white;
+	text-decoration: none;
+	vertical-align: middle;
+	/*padding: 2%;*/
+}
+.navlink2:hover {
+	background-color: #c6c6c6;
+}
+.tagline {
+	background-color: #ddd;
+	padding: 10px;
+}
+.tag {
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+strike {
+	color: #c6c6c6;
+}
+.span {
+	text-decoration: underline solid #fdf731;
+}
+.match {
+	background-image: url("../images/coworking.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	background-position: center;
+}
+article {
+	background-color: rgba(255, 255, 255, .85);
+	width: 25%;
+	padding: 3%;
+	float: right;
+	margin: 5% 5% 3% 0;
+}
+.boxtitle {
+	font-size: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+}
+p {
+	font-size: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: normal;
+	line-height: 30px;
+}
+.createprofile {
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	size: 20px;
+	font-weight: bold;
+	color: black;
+	background-color: #fdf731;
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+.navigation {
+	display: flex;
+	padding-top: 40px;
+}
+.profile {
+	border-right: 1px solid #ddd;
+	padding: 20px 60px 60px 60px;
+}
+.developer {
+	border-right: 1px solid #ddd;
+	padding: 20px 60px 60px 60px;
+}
+.designer {
+	border-right: 1px solid #ddd;
+	padding: 20px 60px 60px 60px;
+}
+.boxlabel {
+	font-size: 25px;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	margin-bottom: -10px;
+	margin-top: -10px;
+}
+.signup {
+	width: 100%;
+	background-color: #c6c6c6;
+	border-radius: 5px;
+	padding: 10px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
+footer {
+	background-color: black;
+}
+h4 {
+	color: white;
+	padding: 40px 20px 20px 20px;
+	margin-bottom: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+}
+.body {
+	background-color: #c6c6c6;
+
+}
+.entiresection {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.personcard {
+	width: 23%;
+	background-color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	padding-bottom: .5%;
+	margin: 1%
+}
+img {
+	width: 94%;
+	margin: 3%;	 
+}
+.info {
+	margin: 5%;
+}
+.person {
+	font-size: 20px
+}
+.moreinfo {
+	background-color: #757575;
+	color: white;
+	margin: 1%;
+	padding: 1% 3% 1% 3%;
+	border-radius: 20px;
+}
+.buttoncontact {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	size: 20px;
+	font-weight: bold;
+	color: black;
+	background-color: #fdf731;
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+.firstrow {
+	display: flex;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	h1 a {
+		color: blue;
+		margin: 0;
+		font-size: 70px;
+	}
+	h1 {
+		text-align: center;
+		flex: none;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		margin: 0;
+	}
+	nav {
+		text-align: center;
+	}
+	.tag {
+		font-size: 40px;
+		width: 80%;
+		margin: 0 auto;
+	}
+	article {
+		width: 84.5%;
+	}
+	header {
+		display: block;
+		height: 160px;
+	}
+	.navigation {
+		display: block;
+	}
+	hr {
+		visibility: visible;
+	}
+	.boxtitle {
+		font-size: 50px;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.boxlabels {
+		font-size: 50px;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.createprofile {
+		font-size: 25px;
+	}
+	.signup {
+		font-size: 25px;
+	}
+	p {
+		font-size: 40px;
+		margin: 0;
+		line-height: 50px;
+		margin-bottom: 10px;
+	}
+	h4 {
+		font-size: 30px;
+	}
+	.personcard {
+	width: 48%;
+	}
+}
+
+
+@media only screen and (max-width: 767px) {
+	h1 a {
+		color: red;
+		margin: 0; 
+		font-size: 80px;
+	}
+	h1 {
+		text-align: center;
+		flex: none;
+		width: 100%;
+		margin: 0;
+	}
+	header {
+		height: 220px;
+		display: block;
+	}
+	.tag {
+		font-size: 50px;
+	}
+	nav {
+		text-align: center;
+	}
+	article {
+		width: 84.5%;
+		margin-top: 7%;
+	}
+	.navigation {
+		display: block
+	}
+	hr {
+		visibility: visible;
+	}
+	.boxtitle {
+		font-size: 50px;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.boxlabels {
+		font-size: 50px;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.createprofile {
+		font-size: 25px;
+	}
+	.signup {
+		font-size: 25px;
+	}
+	p {
+		font-size: 40px;
+		margin: 0;
+		line-height: 50px;
+		margin-bottom: 10px;
+	}
+	h4 {
+		font-size: 30px;
+	}
+	.personcard {
+		margin: 5%;
+		width: 90%
+	}
+}
