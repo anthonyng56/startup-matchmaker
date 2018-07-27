@@ -38,8 +38,6 @@ li {
 }
 .navlink1:hover {
 	background-color: #c6c6c6;
-
-
 }
 .navlink2 {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -208,7 +206,6 @@ img {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 	h1 a {
-		color: blue;
 		margin: 0;
 		font-size: 70px;
 	}
@@ -274,7 +271,6 @@ img {
 
 @media only screen and (max-width: 767px) {
 	h1 a {
-		color: red;
 		margin: 0; 
 		font-size: 80px;
 	}
