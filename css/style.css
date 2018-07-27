@@ -23,9 +23,6 @@ li {
 	margin-right: 0;
 	padding-right: 2%;
 }
-/*nav {
-	width: 60%;
-}*/
 .navlink1 {
 	text-decoration: none;
 	font-size: 20px;
@@ -46,7 +43,6 @@ li {
 	color: white;
 	text-decoration: none;
 	vertical-align: middle;
-	/*padding: 2%;*/
 }
 .navlink2:hover {
 	background-color: #c6c6c6;
